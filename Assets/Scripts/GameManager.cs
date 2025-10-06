@@ -93,7 +93,7 @@ public class GameManager : MonoBehaviour
         Rigidbody rb = playerBall.GetComponent<Rigidbody>();
         rb.useGravity = false;
 
-        playerBall.position = new Vector3(0f, 13.69f, -1.07f);
+        playerBall.position = new Vector3(0f, 20f, -1.07f);
         playerBall.GetComponent<Rigidbody>().velocity = Vector3.zero;
 
         SetGameState(GameState.Start);

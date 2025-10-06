@@ -698,7 +698,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1257805060521799238}
   - component: {fileID: 6346354924321446570}
-  - component: {fileID: 5054686765727629145}
   m_Layer: 0
   m_Name: Deadly Wedge
   m_TagString: Deadly
@@ -746,18 +745,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &5054686765727629145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7020439732781953615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9b6261517192f04392f0bb87e808b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &9202283982887265806
 GameObject:
   m_ObjectHideFlags: 0
